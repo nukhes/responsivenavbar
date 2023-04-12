@@ -1,12 +1,10 @@
 /* 
 
-made by: agente06 
-sorry for my bad english, i'm not american.
+made by: nukhes
 
 */
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
-
 
 /* Reset */
 * {
@@ -57,7 +55,7 @@ nav ul li {
 }
 
 /* Mudando a cor de um elemento quando o mesmo for sobposto pelo cursor */
-/* changing the color if mouse overpass a element */
+/* Changing the color if mouse overpass a element */
 nav ul li:hover {
     cursor: pointer;
     background-color: rgb(185, 38, 67);
