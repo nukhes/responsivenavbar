@@ -1,13 +1,13 @@
-# responsivenavbar
+# Responsivenavbar
 Uma barra de navegação responsiva de acordo com o tamanho da tela, altamente customizável
 
-## requesitos
-- importar o Font Awesome ao seu site.
+## Requesitos
+- Importar o "Font Awesome" ao seu site.
 
-## como usa-la em seu projeto?
-- o primeiro passo é importar o css desta barra, para isto insira está linha no html: 
+## Como usa-la em seu projeto?
+- O primeiro passo é importar o css desta barra, para isto insira está linha no html: 
 ```<link rel="stylesheet" href="https://raw.githubusercontent.com/nukhes/responsivenavbar/main/style.css?token=GHSAT0AAAAAACBD3KOS5JPOC7FWGASM5OYAZBWPOCA">```
-- com o css importado com sucesso, escreva a estrutura da barra: 
+- Com o css importado com sucesso, escreva a estrutura da barra: 
 ```    
 <!-- Barra de navegação -->
     <nav>
@@ -23,4 +23,4 @@ Uma barra de navegação responsiva de acordo com o tamanho da tela, altamente c
         </ul>
     </nav>
 ```
-- agora é só editar sua barra de acordo com suas preferências.
+- Agora é só editar sua barra de acordo com suas preferências.
