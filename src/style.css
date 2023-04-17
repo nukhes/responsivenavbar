@@ -1,0 +1,111 @@
+/* 
+
+made by: nukhes
+
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
+
+/* Reset */
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+/* Configurações da barra */
+/* Bar config */
+nav {
+    position: fixed;
+    background-color: rgb(46, 46, 46);
+    width: 100%;
+    height: 60px;
+}
+
+/* Configurações da logo */
+/* Logo config */
+span#logo {
+    margin-left: 50px;
+    color: white;
+    font: bold;
+    font-size: 18pt;
+    line-height: 60px;
+}
+
+/* Colocando os elementos da barra na direita */
+/* Placing the bar elements on the right */
+nav ul {
+    float: right;
+}
+
+/* Elementos da barra */
+/* Bar elements */
+nav ul li {
+    text-align: center;
+    width: 100px;
+    font-size: 12pt;
+    margin-right: -4px;
+    height: 60px;
+    line-height: 40px;
+    padding: 10px;
+    display: inline-block;
+    transition: all 0.1s;
+}
+
+/* Mudando a cor de um elemento quando o mesmo for sobposto pelo cursor */
+/* Changing the color if mouse overpass a element */
+nav ul li:hover {
+    cursor: pointer;
+    background-color: rgb(185, 38, 67);
+}
+
+/* Cor da letra dos elementos */
+/* Elements font color */
+nav ul li a {
+    color: white;
+}
+
+/* Configurações do botão mobile */
+/* Mobile buttons config */
+#navbtt {
+    display: none;
+    cursor: pointer;
+    font-size: 30px;
+    color: white;
+    float: right;
+    padding: 11px 16px 0px 20px;
+}
+
+#check {
+    display: none;
+}
+
+/* Se a largura for menor que 700px, ative o modo mobile */
+/* If width is less than 700px, active mobile mode */
+@media (max-width: 700px) {
+    #navbtt {
+        display: block;
+    }
+    nav ul {
+        left: 200%;
+        transition: all 0.4s;
+        background-color: rgb(46, 46, 46);
+        top: 59px;
+        text-align: center;
+        position: fixed;
+        width: 70%;
+        height: 100%;
+    }
+    nav ul li {
+        width: 100%;
+        display: block;
+    }
+    nav ul li a {
+        font-size: 14pt;
+    }
+    #check:checked ~ ul {
+        left: 30%;
+    }
+}
